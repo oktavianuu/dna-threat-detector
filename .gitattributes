@@ -1,0 +1,25 @@
+# Handle line endings
+* text=auto
+
+# Python files
+*.py text diff=python
+
+# Markdown and docs
+*.md text
+*.rst text
+
+# Jupyter notebooks (just in case i need it later)
+*.ipynb text
+
+# Shell scripts
+*.sh text eol=lf
+
+# Windows line endings to Unix
+*.bat text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
